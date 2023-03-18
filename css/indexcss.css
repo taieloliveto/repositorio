@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #F2F2F2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    height: 20PX;
+    background-color: #ffff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+header nav ul li {
+display: inline;
+margin: 0 20px;
+font-size: medium;
+font-size: 20px;
+text-align: center
+}
+header nav ul li a {
+    color: #505050;
+    text-decoration: none;
+}
+header nav ul li a img {
+   height: 20px;
+   width: auto;
+}
+header nav.menu ul li a.Ingresar {
+   font-weight: 700;
+   color: #0662B2;}
+ a:hover {
+    color: #2f2f2f; }
+
+.Fondo1{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -180px;
+    opacity: 50%;
+    z-index: -1;
+}
+.subtitulo.posicion{
+    position: absolute;
+    top: 700px;
+}
+div.fondo {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    position: sticky;
+    z-index: -1;
+}
+.Margen{
+    margin: 30px;
+}
+div.BoxText {
+    text-align: left;
+    font-size: 25px;
+    color: #353535;
+    width: 350px;
+    height: 50px;
+    padding: 0px 30px;
+    margin : 10px;
+    position: absolute;
+    top: 350px;
+    z-index: 1;
+}
+.BoxText p{
+    text-align: left;
+}
+div.Espacio{
+    height: 50px;
+    width: 50px;
+}
+div.Espacio2{
+    height: 200px;
+    width: 200px;
+}
+.LogoGrande {
+    margin: 30px;
+    height: 60px;
+    width: auto;
+    padding: 10px 20px 10px 10px;
+    position: absolute;
+    z-index: 0;
+    top: 200px;
+}
+p.LogoGrandeMedio{
+    text-align: center;
+    top: 200px;
+    position: relative;
+}
+p img.Imagen1{
+    width: 300px;
+    height: auto;
+    z-index: 1;
+}
+p.Imagen1{
+    z-index: 1;
+}
+.BotonApp{
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 20px;
+    color:#333333;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#FFEAEA;
+    border-color: #F74646;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:50px;
+    height: 70px;
+    padding: 0px 30px;
+    margin : 10px;
+    position: absolute;
+    top: 220px;
+    left: 850px;
+    z-index: 1;
+}
+.Subtitulo{
+    color: #333333;
+    font-size: 35px;
+    font-weight: 600;
+}
+.Subtitulo2{
+    color: #333333;
+    font-size: 25px;
+    font-weight: 500;
+}
+p.Imagen1Nosotros img{
+    margin: 30px;
+    height: auto;
+    width: 500px;
+    top: 500px;
+    position: relative;
+}
+p.Imagen1Nosotros{
+    text-align: right;
+    top: 800px;
+}
+p.Contenido1Nosotros{
+    width: 50%;
+    text-align: justify;
+    margin: 30px;
+    position: absolute;
+    top: 900px;
+}
+h1.Titulo{
+    text-align: center;
+    top: 500px;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333333;
+}
+.FondoIngresar {
+    display: flex;
+    justify-content: right;
+    width: auto ;
+    height: 600px;   
+    opacity:50%;
+    z-index: -2;
+}
+.PosicionTitulo1{
+    position: relative;
+    top: 600px;
+    margin: 30px;
+}
+.IngresoBox{
+z-index: 2;
+position: absolute;
+top: 200px;
+}
+
+.Linea{
+    display: inline;
+    width: 50%;
+}
+.CategoriaBox{
+    background-color: #F74646;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px;
+}
+div.PerfilesContratados{
+    width: 100%;
+    margin: 0px ;
+    background-color: white;
+    color:#333333;
+    padding: 15px;
+    margin-top: 20px;
+}
+div.PerfilesContratados img.Izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+div.reset {
+    clear: both;
+  }
